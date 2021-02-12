@@ -1,4 +1,30 @@
 /* Use Selectors and attributes for the HTML design */
-h1 {
+.purple-font {
+  color: #6942b8;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  text-decoration: underline;
+}
+
+#title-1 {
+  font-size: 90px;
+  text-decoration: line-through;
+  text-shadow: 15px 15px 13px rgba(0,0,0,0.2);
+  letter-spacing: 30px;
+  color: red;
+}
+
+#title-2 {
+  font-size: 60px;
+  text-decoration: underline;
+}
+
+.marco {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 70px;
+  text-align: center;
+}
+
+h1.marco {
   color: blue;
 }
